@@ -344,6 +344,7 @@ github.com/peterbourgon/foo/
 ```
 
 # Dep Injection
+Resulta similar a la manera en la que usamos los `@Inject` por constructor, aunque en go necesitamos pasar las dependencias explicitamente por parametro al construir el type
 
 ```go
 type UserRepository interface {
